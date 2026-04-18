@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prosper Olamide Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <h2>Prosper Olamide</h2>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+            <button onclick="toggleMode()">🌙 Mode</button>
+        </div>
+    </div>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+        <img src="https://picsum.photos/200" alt="profile">
+        <h1><span id="typing"></span></h1>
+        <p>Frontend Developer and more</p>
+        <button onclick="sayHi()">Say Hi</button>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+        <h2>About Me</h2>
+        <p>
+            I am Prosper Olamide Bamidele, a frontend developer in training.
+            I build modern websites using HTML, CSS, and JavaScript, and I’m constantly learning new technologies.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+        <h2>Projects</h2>
+
+        <div class="projects">
+
+            <div class="project-card">
+    <h3>My First Project</h3>
+    <p>This is my first frontend project built while learning.</p>
+
+    <div class="project-buttons">
+        <button>Live Demo</button>
+        <button>GitHub</button>
+    </div>
+</div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+        <h2>Contact</h2>
+        <p>Email: prosperolamide0@gmail.com</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
